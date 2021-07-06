@@ -1,7 +1,7 @@
 <?php
 
 $DSN = 'mysql:host=localhost; dbname=neptune';
-$dbconnection = new PDO($DSN, 'abdulqudduus1', 'Nitrogen8491');
+$dbconnection = new PDO($DSN, 'root', '');
 
 // if ($dbconnection) {
 //     echo 'connection succesful';
